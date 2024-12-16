@@ -22,13 +22,6 @@ export async function GET() {
     },
     {
       network: "Testnet",
-      client: "Geth",
-      type: "Archive",
-      size: "456.78 GB",
-      url: "https://sepolia-archive-snapshots.base.org/",
-    },
-    {
-      network: "Testnet",
       client: "Reth",
       type: "Archive",
       size: "789.01 GB",
@@ -40,13 +33,6 @@ export async function GET() {
       type: "Full",
       size: "234.56 GB",
       url: "https://mainnet-full-snapshots.base.org/",
-    },
-    {
-      network: "Mainnet",
-      client: "Geth",
-      type: "Archive",
-      size: "567.89 GB",
-      url: "https://mainnet-archive-snapshots.base.org/",
     },
     {
       network: "Mainnet",

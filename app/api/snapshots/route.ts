@@ -33,12 +33,6 @@ export async function GET() {
     },
     {
       network: "Testnet",
-      client: "Geth",
-      type: "Archive",
-      url: "https://sepolia-archive-snapshots.base.org/",
-    },
-    {
-      network: "Testnet",
       client: "Reth",
       type: "Archive",
       url: "https://sepolia-reth-archive-snapshots.base.org/",
@@ -48,12 +42,6 @@ export async function GET() {
       client: "Geth",
       type: "Full",
       url: "https://mainnet-full-snapshots.base.org/",
-    },
-    {
-      network: "Mainnet",
-      client: "Geth",
-      type: "Archive",
-      url: "https://mainnet-archive-snapshots.base.org/",
     },
     {
       network: "Mainnet",
